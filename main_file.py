@@ -1,7 +1,7 @@
 import numpy
 import pandas as pd
 
-df = pd.read_csv("machine-learning-groupe-7/Domain1_csv/Subject1-0-1.csv")
+df = pd.read_csv("data/Domain1_csv/Subject1-0-1.csv")
 df.columns = ['x', 'y', 'z']  # renomme les colonnes si nécessaire
 
 
